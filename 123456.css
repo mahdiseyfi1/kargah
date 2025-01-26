@@ -1,0 +1,94 @@
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #1a1a1a;
+    color: #e8e0e0;
+    direction: rtl;
+}
+
+nav {
+    background-color: #9ac0ea;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.page {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #314252;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #3C4A58;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #304760;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f8fa;
+    color: #e0e0e0;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+.gerd {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.gerd1 {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.gerd2 {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
